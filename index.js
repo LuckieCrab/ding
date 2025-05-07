@@ -10,7 +10,7 @@ app.get('/21_cars_meme.jpg', (req, res) => {
     res.sendFile(__dirname + '/views/21_cars_meme.jpg')
 })
 
-app.get('.well-known/discord', (req, res) => {
+app.get('/.well-known/discord', (req, res) => {
     res.send('dh=83816783f4f2c312ebedc3ae4263f9edbae591e2')
 })
 
